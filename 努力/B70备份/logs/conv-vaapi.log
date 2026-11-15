@@ -1,0 +1,477 @@
+2026-11-14 08:11:51,654 - __main__ - INFO - Video backend: VA-API (/dev/dri/renderD128, /dev/dri/renderD129)
+2026-11-14 08:11:51,654 - __main__ - INFO - Starting multi-bag conversion: /data/rosbags
+2026-11-14 08:11:51,655 - __main__ - INFO - Discovered 1 bags:
+2026-11-14 08:11:51,655 - __main__ - INFO -   - rec_20261114_152130_7c03811d: /data/rosbags/rec_20261114_152130_7c03811d/rec_20261114_152130_7c03811d_0.mcap
+2026-11-14 08:11:51,664 - __main__ - INFO - Created LeRobot dataset: move_vaapi
+2026-11-14 08:11:51,664 - __main__ - INFO - 
+=== Processing rec_20261114_152130_7c03811d ===
+2026-11-14 08:11:51,948 - __main__ - INFO - 🔴 Start #Episode: 0
+2026-11-14 08:11:51,949 - __main__ - INFO -   📹 left_color: buffered 41 pkts from IDR at 1794640893.994s (X at 1794640894.884s)
+2026-11-14 08:11:51,949 - __main__ - INFO -   📹 right_color: buffered 23 pkts from IDR at 1794640894.371s (X at 1794640894.884s)
+2026-11-14 08:11:51,949 - __main__ - INFO -   📹 head_camera: buffered 43 pkts from IDR at 1794640893.942s (X at 1794640894.884s)
+2026-11-14 08:11:52,451 - __main__ - INFO - ⏹️ Stop TimeRange: 1794640894.884 to 1794640908.032 seconds. Duration: 13.148 seconds
+2026-11-14 08:11:52,451 - __main__ - INFO - ⏹️ Realigned timestamps for 591 frames, timestamp range: 0.000000 to 13.111111 seconds
+2026-11-14 08:11:52,514 - __main__ - INFO - 🔴 Start #Episode: 1
+2026-11-14 08:11:52,514 - __main__ - INFO -   📹 left_color: buffered 45 pkts from IDR at 1794640918.995s (X at 1794640919.978s)
+2026-11-14 08:11:52,514 - __main__ - INFO -   📹 right_color: buffered 28 pkts from IDR at 1794640919.375s (X at 1794640919.978s)
+2026-11-14 08:11:52,514 - __main__ - INFO -   📹 head_camera: buffered 2 pkts from IDR at 1794640919.943s (X at 1794640919.978s)
+2026-11-14 08:11:53,179 - __main__ - INFO - ⏹️ Stop TimeRange: 1794640919.978 to 1794640929.869 seconds. Duration: 9.891 seconds
+2026-11-14 08:11:53,179 - __main__ - INFO - ⏹️ Realigned timestamps for 444 frames, timestamp range: 0.000000 to 9.844444 seconds
+2026-11-14 08:11:53,201 - __main__ - INFO - 🔴 Start #Episode: 2
+2026-11-14 08:11:53,201 - __main__ - INFO -   📹 left_color: buffered 27 pkts from IDR at 1794640936.996s (X at 1794640937.597s)
+2026-11-14 08:11:53,201 - __main__ - INFO -   📹 right_color: buffered 11 pkts from IDR at 1794640937.374s (X at 1794640937.597s)
+2026-11-14 08:11:53,201 - __main__ - INFO -   📹 head_camera: buffered 30 pkts from IDR at 1794640936.944s (X at 1794640937.597s)
+2026-11-14 08:11:53,861 - __main__ - INFO - ⏹️ Stop TimeRange: 1794640937.597 to 1794640948.689 seconds. Duration: 11.092 seconds
+2026-11-14 08:11:53,861 - __main__ - INFO - ⏹️ Realigned timestamps for 498 frames, timestamp range: 0.000000 to 11.044444 seconds
+2026-11-14 08:11:53,865 - __main__ - INFO - 🔴 Start #Episode: 3
+2026-11-14 08:11:53,865 - __main__ - INFO -   📹 left_color: buffered 40 pkts from IDR at 1794640953.997s (X at 1794640954.868s)
+2026-11-14 08:11:53,866 - __main__ - INFO -   📹 right_color: buffered 23 pkts from IDR at 1794640954.377s (X at 1794640954.868s)
+2026-11-14 08:11:53,866 - __main__ - INFO -   📹 head_camera: buffered 42 pkts from IDR at 1794640953.945s (X at 1794640954.868s)
+2026-11-14 08:11:54,302 - __main__ - INFO - 🔴 Re-record #Episode: 3
+2026-11-14 08:11:54,302 - __main__ - INFO -   📹 left_color: buffered 3 pkts from IDR at 1794640958.997s (X at 1794640959.049s)
+2026-11-14 08:11:54,302 - __main__ - INFO -   📹 right_color: buffered 31 pkts from IDR at 1794640958.377s (X at 1794640959.049s)
+2026-11-14 08:11:54,302 - __main__ - INFO -   📹 head_camera: buffered 5 pkts from IDR at 1794640958.945s (X at 1794640959.049s)
+2026-11-14 08:11:54,474 - __main__ - INFO - 🔴 Re-record #Episode: 3
+2026-11-14 08:11:54,474 - __main__ - INFO -   📹 left_color: buffered 39 pkts from IDR at 1794640963.998s (X at 1794640964.843s)
+2026-11-14 08:11:54,475 - __main__ - INFO -   📹 right_color: buffered 21 pkts from IDR at 1794640964.378s (X at 1794640964.843s)
+2026-11-14 08:11:54,475 - __main__ - INFO -   📹 head_camera: buffered 41 pkts from IDR at 1794640963.946s (X at 1794640964.843s)
+2026-11-14 08:11:54,900 - __main__ - INFO - ⏹️ Stop TimeRange: 1794640964.843 to 1794640977.098 seconds. Duration: 12.255 seconds
+2026-11-14 08:11:54,901 - __main__ - INFO - ⏹️ Realigned timestamps for 550 frames, timestamp range: 0.000000 to 12.200000 seconds
+2026-11-14 08:11:55,144 - __main__ - INFO - 🔴 Start #Episode: 4
+2026-11-14 08:11:55,144 - __main__ - INFO -   📹 left_color: buffered 19 pkts from IDR at 1794640984.998s (X at 1794640985.401s)
+2026-11-14 08:11:55,145 - __main__ - INFO -   📹 right_color: buffered 2 pkts from IDR at 1794640985.378s (X at 1794640985.401s)
+2026-11-14 08:11:55,145 - __main__ - INFO -   📹 head_camera: buffered 21 pkts from IDR at 1794640984.947s (X at 1794640985.401s)
+2026-11-14 08:11:55,534 - __main__ - INFO - ⏹️ Stop TimeRange: 1794640985.401 to 1794640992.404 seconds. Duration: 7.003 seconds
+2026-11-14 08:11:55,534 - __main__ - INFO - ⏹️ Realigned timestamps for 314 frames, timestamp range: 0.000000 to 6.955556 seconds
+2026-11-14 08:11:55,534 - __main__ - INFO - 🔴 Start #Episode: 5
+2026-11-14 08:11:55,534 - __main__ - INFO -   📹 left_color: buffered 5 pkts from IDR at 1794640997.001s (X at 1794640997.100s)
+2026-11-14 08:11:55,534 - __main__ - INFO -   📹 right_color: buffered 33 pkts from IDR at 1794640996.379s (X at 1794640997.100s)
+2026-11-14 08:11:55,534 - __main__ - INFO -   📹 head_camera: buffered 7 pkts from IDR at 1794640996.948s (X at 1794640997.100s)
+2026-11-14 08:11:55,847 - __main__ - INFO - ⏹️ Stop TimeRange: 1794640997.100 to 1794641006.198 seconds. Duration: 9.098 seconds
+2026-11-14 08:11:55,847 - __main__ - INFO - ⏹️ Realigned timestamps for 408 frames, timestamp range: 0.000000 to 9.044444 seconds
+2026-11-14 08:11:55,847 - __main__ - INFO - 🔴 Start #Episode: 6
+2026-11-14 08:11:55,848 - __main__ - INFO -   📹 left_color: buffered 11 pkts from IDR at 1794641009.000s (X at 1794641009.230s)
+2026-11-14 08:11:55,848 - __main__ - INFO -   📹 right_color: buffered 39 pkts from IDR at 1794641008.377s (X at 1794641009.230s)
+2026-11-14 08:11:55,848 - __main__ - INFO -   📹 head_camera: buffered 13 pkts from IDR at 1794641008.949s (X at 1794641009.230s)
+2026-11-14 08:11:56,157 - __main__ - INFO - ⏹️ Stop TimeRange: 1794641009.230 to 1794641017.146 seconds. Duration: 7.916 seconds
+2026-11-14 08:11:56,157 - __main__ - INFO - ⏹️ Realigned timestamps for 355 frames, timestamp range: 0.000000 to 7.866667 seconds
+2026-11-14 08:11:56,157 - __main__ - INFO - 🔴 Start #Episode: 7
+2026-11-14 08:11:56,157 - __main__ - INFO -   📹 left_color: buffered 24 pkts from IDR at 1794641021.003s (X at 1794641021.528s)
+2026-11-14 08:11:56,157 - __main__ - INFO -   📹 right_color: buffered 7 pkts from IDR at 1794641021.378s (X at 1794641021.528s)
+2026-11-14 08:11:56,157 - __main__ - INFO -   📹 head_camera: buffered 27 pkts from IDR at 1794641020.949s (X at 1794641021.528s)
+2026-11-14 08:11:56,453 - __main__ - INFO - ⏹️ Stop TimeRange: 1794641021.528 to 1794641028.598 seconds. Duration: 7.070 seconds
+2026-11-14 08:11:56,453 - __main__ - INFO - ⏹️ Realigned timestamps for 317 frames, timestamp range: 0.000000 to 7.022222 seconds
+2026-11-14 08:11:56,481 - __main__ - INFO - 🔴 Start #Episode: 8
+2026-11-14 08:11:56,481 - __main__ - INFO -   📹 left_color: buffered 40 pkts from IDR at 1794641036.001s (X at 1794641036.883s)
+2026-11-14 08:11:56,481 - __main__ - INFO -   📹 right_color: buffered 23 pkts from IDR at 1794641036.378s (X at 1794641036.883s)
+2026-11-14 08:11:56,482 - __main__ - INFO -   📹 head_camera: buffered 43 pkts from IDR at 1794641035.949s (X at 1794641036.883s)
+2026-11-14 08:11:56,729 - __main__ - INFO - ⏹️ Stop TimeRange: 1794641036.883 to 1794641043.309 seconds. Duration: 6.426 seconds
+2026-11-14 08:11:56,729 - __main__ - INFO - ⏹️ Realigned timestamps for 288 frames, timestamp range: 0.000000 to 6.377778 seconds
+2026-11-14 08:11:56,730 - __main__ - INFO - 🔴 Start #Episode: 9
+2026-11-14 08:11:56,730 - __main__ - INFO -   📹 left_color: buffered 37 pkts from IDR at 1794641047.001s (X at 1794641047.822s)
+2026-11-14 08:11:56,730 - __main__ - INFO -   📹 right_color: buffered 20 pkts from IDR at 1794641047.379s (X at 1794641047.822s)
+2026-11-14 08:11:56,730 - __main__ - INFO -   📹 head_camera: buffered 40 pkts from IDR at 1794641046.950s (X at 1794641047.822s)
+2026-11-14 08:11:58,712 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:11:58,801 - root - INFO - Sampled 3 frames from episode_000001.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:11:58,803 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:11:58,961 - root - INFO - Sampled 3 frames from episode_000001.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:11:58,963 - root - INFO - Fixed decoder metadata: width=960, height=480
+2026-11-14 08:11:59,045 - root - INFO - Sampled 3 frames from episode_000001.mp4.tmp: shape=(3, 3, 80, 160), dtype=uint8
+2026-11-14 08:11:59,046 - root - INFO -   [PERF encode ep1 gpu1] 3 cams, 444 frames each: 5.87s (sample: 0.46s)
+2026-11-14 08:11:59,866 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:00,110 - root - INFO - Sampled 3 frames from episode_000002.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:00,112 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:00,138 - root - INFO -   left_color: padded 1 tail frame(s) by cloning the last IDR packet
+2026-11-14 08:12:00,188 - root - INFO - Sampled 3 frames from episode_000002.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:00,190 - root - INFO - Fixed decoder metadata: width=960, height=480
+2026-11-14 08:12:00,260 - root - INFO -   left_color: padded 1 tail frame(s) by cloning the last IDR packet
+2026-11-14 08:12:00,271 - root - INFO - Sampled 3 frames from episode_000002.mp4.tmp: shape=(3, 3, 80, 160), dtype=uint8
+2026-11-14 08:12:00,271 - root - INFO -   [PERF encode ep2 gpu0] 3 cams, 498 frames each: 6.41s (sample: 0.41s)
+2026-11-14 08:12:00,520 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:00,657 - root - INFO - Sampled 3 frames from episode_000000.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:00,659 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:00,734 - root - INFO - Sampled 3 frames from episode_000000.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:00,735 - root - INFO - Fixed decoder metadata: width=960, height=480
+2026-11-14 08:12:00,828 - root - INFO - Sampled 3 frames from episode_000000.mp4.tmp: shape=(3, 3, 80, 160), dtype=uint8
+2026-11-14 08:12:00,829 - root - INFO -   [PERF encode ep0 gpu0] 3 cams, 591 frames each: 8.38s (sample: 0.31s)
+Map:   0% 0/591 [00:00<?, ? examples/s]Map:   6% 38/591 [00:00<00:01, 362.50 examples/s]Map:  23% 135/591 [00:00<00:00, 707.20 examples/s]2026-11-14 08:12:01,399 - root - INFO - Fixed decoder metadata: width=1280, height=400
+Map:  51% 300/591 [00:00<00:00, 1128.59 examples/s]2026-11-14 08:12:01,474 - root - INFO - Sampled 3 frames from episode_000004.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:01,477 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:01,494 - root - INFO -   head_camera: padded 1 tail frame(s) by cloning the last IDR packet
+2026-11-14 08:12:01,509 - root - INFO - Fixed decoder metadata: width=1280, height=400
+Map:  81% 481/591 [00:00<00:00, 1390.89 examples/s]2026-11-14 08:12:01,559 - root - INFO - Sampled 3 frames from episode_000004.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:01,562 - root - INFO - Fixed decoder metadata: width=960, height=480
+2026-11-14 08:12:01,587 - root - INFO - Sampled 3 frames from episode_000003.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+Map: 100% 591/591 [00:00<00:00, 1223.26 examples/s]2026-11-14 08:12:01,589 - root - INFO - Fixed decoder metadata: width=1280, height=400
+
+Creating parquet from Arrow format:   0% 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100% 1/1 [00:00<00:00, 109.39ba/s]
+2026-11-14 08:12:01,624 - root - INFO - ✅ Saved episode 0 with 591 frames
+2026-11-14 08:12:01,624 - __main__ - INFO -   [PERF cumulative] episode_video_dur=13.1s | dataset_save=0.79s | encode_stall=4.10s | idr_window_flush=0.00s | read_next=0.27s | stage2_finalize=0.00s | update_messages=0.69s
+Map:   0% 0/444 [00:00<?, ? examples/s]2026-11-14 08:12:01,749 - root - INFO - Sampled 3 frames from episode_000004.mp4.tmp: shape=(3, 3, 80, 160), dtype=uint8
+2026-11-14 08:12:01,750 - root - INFO -   [PERF encode ep4 gpu0] 3 cams, 314 frames each: 2.70s (sample: 0.35s)
+Map:   2% 9/444 [00:00<00:08, 50.99 examples/s]2026-11-14 08:12:01,934 - root - INFO - Sampled 3 frames from episode_000003.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:02,045 - root - INFO - Fixed decoder metadata: width=960, height=480
+2026-11-14 08:12:02,133 - root - INFO - Sampled 3 frames from episode_000003.mp4.tmp: shape=(3, 3, 80, 160), dtype=uint8
+2026-11-14 08:12:02,133 - root - INFO -   [PERF encode ep3 gpu1] 3 cams, 550 frames each: 7.23s (sample: 0.63s)
+Map:   9% 42/444 [00:00<00:05, 75.89 examples/s]Map:  20% 87/444 [00:01<00:03, 90.83 examples/s]Map:  43% 189/444 [00:01<00:01, 215.30 examples/s]Map:  71% 316/444 [00:01<00:00, 391.88 examples/s]Map: 100% 444/444 [00:01<00:00, 333.68 examples/s]
+Creating parquet from Arrow format:   0% 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100% 1/1 [00:00<00:00, 167.28ba/s]
+2026-11-14 08:12:03,101 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:03,175 - root - INFO - Sampled 3 frames from episode_000005.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:03,176 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:03,217 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:03,217 - root - INFO - ✅ Saved episode 1 with 444 frames
+2026-11-14 08:12:03,217 - __main__ - INFO -   [PERF cumulative] episode_video_dur=9.9s | dataset_save=2.39s | encode_stall=4.10s | idr_window_flush=0.00s | read_next=0.27s | stage2_finalize=0.00s | update_messages=0.69s
+Map:   0% 0/498 [00:00<?, ? examples/s]2026-11-14 08:12:03,283 - root - INFO - Sampled 3 frames from episode_000005.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:03,287 - root - INFO - Fixed decoder metadata: width=960, height=480
+2026-11-14 08:12:03,317 - root - INFO - Sampled 3 frames from episode_000006.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:03,319 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:03,373 - root - INFO - Sampled 3 frames from episode_000005.mp4.tmp: shape=(3, 3, 80, 160), dtype=uint8
+2026-11-14 08:12:03,374 - root - INFO -   [PERF encode ep5 gpu1] 3 cams, 408 frames each: 3.10s (sample: 0.27s)
+Map:  35% 173/498 [00:00<00:00, 1700.86 examples/s]2026-11-14 08:12:03,392 - root - INFO - Sampled 3 frames from episode_000006.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:03,395 - root - INFO - Fixed decoder metadata: width=960, height=480
+Map:  71% 356/498 [00:00<00:00, 1774.38 examples/s]2026-11-14 08:12:03,482 - root - INFO - Sampled 3 frames from episode_000006.mp4.tmp: shape=(3, 3, 80, 160), dtype=uint8
+2026-11-14 08:12:03,486 - root - INFO -   [PERF encode ep6 gpu0] 3 cams, 355 frames each: 2.66s (sample: 0.27s)
+Map: 100% 498/498 [00:00<00:00, 1512.89 examples/s]
+Creating parquet from Arrow format:   0% 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100% 1/1 [00:00<00:00, 130.60ba/s]
+2026-11-14 08:12:03,631 - root - INFO - ✅ Saved episode 2 with 498 frames
+2026-11-14 08:12:03,631 - __main__ - INFO -   [PERF cumulative] episode_video_dur=11.1s | dataset_save=2.80s | encode_stall=4.10s | idr_window_flush=0.00s | read_next=0.27s | stage2_finalize=0.00s | update_messages=0.69s
+Map:   0% 0/550 [00:00<?, ? examples/s]Map:  16% 87/550 [00:00<00:00, 827.31 examples/s]Map:  33% 183/550 [00:00<00:00, 892.03 examples/s]Map:  64% 354/550 [00:00<00:00, 996.62 examples/s]Map:  97% 532/550 [00:00<00:00, 1258.77 examples/s]Map: 100% 550/550 [00:00<00:00, 991.91 examples/s] 
+Creating parquet from Arrow format:   0% 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100% 1/1 [00:00<00:00, 177.12ba/s]
+2026-11-14 08:12:04,299 - root - INFO - ✅ Saved episode 3 with 550 frames
+2026-11-14 08:12:04,299 - __main__ - INFO -   [PERF cumulative] episode_video_dur=12.3s | dataset_save=3.47s | encode_stall=4.10s | idr_window_flush=0.00s | read_next=0.27s | stage2_finalize=0.00s | update_messages=0.69s
+Map:   0% 0/314 [00:00<?, ? examples/s]2026-11-14 08:12:04,427 - root - INFO - Fixed decoder metadata: width=1280, height=400
+Map:  59% 186/314 [00:00<00:00, 1613.73 examples/s]Map: 100% 314/314 [00:00<00:00, 1959.80 examples/s]
+Creating parquet from Arrow format:   0% 0/1 [00:00<?, ?ba/s]2026-11-14 08:12:04,490 - root - INFO - Fixed decoder metadata: width=1280, height=400
+Creating parquet from Arrow format: 100% 1/1 [00:00<00:00, 222.95ba/s]
+2026-11-14 08:12:04,499 - root - INFO - Sampled 3 frames from episode_000007.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:04,500 - root - INFO - ✅ Saved episode 4 with 314 frames
+2026-11-14 08:12:04,500 - __main__ - INFO -   [PERF cumulative] episode_video_dur=7.0s | dataset_save=3.67s | encode_stall=4.10s | idr_window_flush=0.00s | read_next=0.27s | stage2_finalize=0.00s | update_messages=0.69s
+2026-11-14 08:12:04,500 - root - INFO - Fixed decoder metadata: width=1280, height=400
+Map:   0% 0/408 [00:00<?, ? examples/s]2026-11-14 08:12:04,563 - root - INFO - Sampled 3 frames from episode_000008.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:04,565 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:04,576 - root - INFO - Sampled 3 frames from episode_000007.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:04,578 - root - INFO - Fixed decoder metadata: width=960, height=480
+Map:  97% 395/408 [00:00<00:00, 3927.08 examples/s]2026-11-14 08:12:04,630 - root - INFO - Sampled 3 frames from episode_000008.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:04,631 - root - INFO - Fixed decoder metadata: width=960, height=480
+Map: 100% 408/408 [00:00<00:00, 3638.98 examples/s]
+Creating parquet from Arrow format:   0% 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100% 1/1 [00:00<00:00, 316.24ba/s]
+2026-11-14 08:12:04,645 - root - INFO - ✅ Saved episode 5 with 408 frames
+2026-11-14 08:12:04,645 - __main__ - INFO -   [PERF cumulative] episode_video_dur=9.1s | dataset_save=3.81s | encode_stall=4.10s | idr_window_flush=0.00s | read_next=0.27s | stage2_finalize=0.00s | update_messages=0.69s
+Map:   0% 0/355 [00:00<?, ? examples/s]2026-11-14 08:12:04,669 - root - INFO - Sampled 3 frames from episode_000007.mp4.tmp: shape=(3, 3, 80, 160), dtype=uint8
+2026-11-14 08:12:04,669 - root - INFO -   [PERF encode ep7 gpu1] 3 cams, 317 frames each: 2.92s (sample: 0.25s)
+2026-11-14 08:12:04,712 - root - INFO - Sampled 3 frames from episode_000008.mp4.tmp: shape=(3, 3, 80, 160), dtype=uint8
+2026-11-14 08:12:04,712 - root - INFO -   [PERF encode ep8 gpu0] 3 cams, 288 frames each: 2.58s (sample: 0.22s)
+Map: 100% 355/355 [00:00<00:00, 3805.48 examples/s]
+Creating parquet from Arrow format:   0% 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100% 1/1 [00:00<00:00, 282.90ba/s]
+2026-11-14 08:12:04,767 - root - INFO - ✅ Saved episode 6 with 355 frames
+2026-11-14 08:12:04,767 - __main__ - INFO -   [PERF cumulative] episode_video_dur=7.9s | dataset_save=3.93s | encode_stall=4.10s | idr_window_flush=0.00s | read_next=0.27s | stage2_finalize=0.00s | update_messages=0.69s
+Map:   0% 0/317 [00:00<?, ? examples/s]Map: 100% 317/317 [00:00<00:00, 4395.93 examples/s]
+Creating parquet from Arrow format:   0% 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100% 1/1 [00:00<00:00, 418.63ba/s]
+2026-11-14 08:12:04,862 - root - INFO - ✅ Saved episode 7 with 317 frames
+2026-11-14 08:12:04,862 - __main__ - INFO -   [PERF cumulative] episode_video_dur=7.1s | dataset_save=4.03s | encode_stall=4.10s | idr_window_flush=0.00s | read_next=0.27s | stage2_finalize=0.00s | update_messages=0.69s
+Map:   0% 0/288 [00:00<?, ? examples/s]Map: 100% 288/288 [00:00<00:00, 4414.88 examples/s]
+Creating parquet from Arrow format:   0% 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100% 1/1 [00:00<00:00, 460.20ba/s]
+2026-11-14 08:12:04,948 - root - INFO - ✅ Saved episode 8 with 288 frames
+2026-11-14 08:12:04,948 - __main__ - INFO -   [PERF cumulative] episode_video_dur=6.4s | dataset_save=4.11s | encode_stall=4.10s | idr_window_flush=0.00s | read_next=0.27s | stage2_finalize=0.00s | update_messages=0.69s
+2026-11-14 08:12:05,147 - __main__ - INFO - ⏹️ Stop TimeRange: 1794641047.822 to 1794641054.153 seconds. Duration: 6.331 seconds
+2026-11-14 08:12:05,147 - __main__ - INFO - ⏹️ Realigned timestamps for 284 frames, timestamp range: 0.000000 to 6.288889 seconds
+2026-11-14 08:12:05,147 - __main__ - INFO - 🔴 Start #Episode: 10
+2026-11-14 08:12:05,147 - __main__ - INFO -   📹 left_color: buffered 23 pkts from IDR at 1794641058.002s (X at 1794641058.510s)
+2026-11-14 08:12:05,147 - __main__ - INFO -   📹 right_color: buffered 6 pkts from IDR at 1794641058.380s (X at 1794641058.510s)
+2026-11-14 08:12:05,147 - __main__ - INFO -   📹 head_camera: buffered 26 pkts from IDR at 1794641057.950s (X at 1794641058.510s)
+2026-11-14 08:12:05,537 - __main__ - INFO - ⏹️ Stop TimeRange: 1794641058.510 to 1794641064.557 seconds. Duration: 6.047 seconds
+2026-11-14 08:12:05,537 - __main__ - INFO - ⏹️ Realigned timestamps for 271 frames, timestamp range: 0.000000 to 6.000000 seconds
+2026-11-14 08:12:05,537 - __main__ - INFO - 🔴 Start #Episode: 11
+2026-11-14 08:12:05,537 - __main__ - INFO -   📹 left_color: buffered 9 pkts from IDR at 1794641068.005s (X at 1794641068.200s)
+2026-11-14 08:12:05,537 - __main__ - INFO -   📹 right_color: buffered 37 pkts from IDR at 1794641067.382s (X at 1794641068.200s)
+2026-11-14 08:12:05,537 - __main__ - INFO -   📹 head_camera: buffered 12 pkts from IDR at 1794641067.951s (X at 1794641068.200s)
+2026-11-14 08:12:06,359 - __main__ - INFO - ⏹️ Stop TimeRange: 1794641068.200 to 1794641074.844 seconds. Duration: 6.644 seconds
+2026-11-14 08:12:06,359 - __main__ - INFO - ⏹️ Realigned timestamps for 298 frames, timestamp range: 0.000000 to 6.600000 seconds
+2026-11-14 08:12:06,404 - __main__ - INFO - 🔴 Start #Episode: 12
+2026-11-14 08:12:06,404 - __main__ - INFO -   📹 left_color: buffered 27 pkts from IDR at 1794641082.003s (X at 1794641082.586s)
+2026-11-14 08:12:06,461 - __main__ - INFO -   📹 right_color: buffered 10 pkts from IDR at 1794641082.381s (X at 1794641082.586s)
+2026-11-14 08:12:06,462 - __main__ - INFO -   📹 head_camera: buffered 29 pkts from IDR at 1794641081.951s (X at 1794641082.586s)
+2026-11-14 08:12:07,204 - __main__ - INFO - ⏹️ Stop TimeRange: 1794641082.586 to 1794641087.990 seconds. Duration: 5.404 seconds
+2026-11-14 08:12:07,204 - __main__ - INFO - ⏹️ Realigned timestamps for 242 frames, timestamp range: 0.000000 to 5.355556 seconds
+2026-11-14 08:12:07,204 - __main__ - INFO - 🔴 Start #Episode: 13
+2026-11-14 08:12:07,204 - __main__ - INFO -   📹 left_color: buffered 37 pkts from IDR at 1794641091.004s (X at 1794641091.808s)
+2026-11-14 08:12:07,204 - __main__ - INFO -   📹 right_color: buffered 20 pkts from IDR at 1794641091.382s (X at 1794641091.808s)
+2026-11-14 08:12:07,204 - __main__ - INFO -   📹 head_camera: buffered 39 pkts from IDR at 1794641090.951s (X at 1794641091.808s)
+2026-11-14 08:12:08,371 - __main__ - INFO - ⏹️ Stop TimeRange: 1794641091.808 to 1794641098.108 seconds. Duration: 6.300 seconds
+2026-11-14 08:12:08,372 - __main__ - INFO - ⏹️ Realigned timestamps for 282 frames, timestamp range: 0.000000 to 6.244444 seconds
+2026-11-14 08:12:08,372 - __main__ - INFO - 🔴 Start #Episode: 14
+2026-11-14 08:12:08,372 - __main__ - INFO -   📹 left_color: buffered 36 pkts from IDR at 1794641102.006s (X at 1794641102.792s)
+2026-11-14 08:12:08,372 - __main__ - INFO -   📹 right_color: buffered 19 pkts from IDR at 1794641102.382s (X at 1794641102.792s)
+2026-11-14 08:12:08,372 - __main__ - INFO -   📹 head_camera: buffered 38 pkts from IDR at 1794641101.953s (X at 1794641102.792s)
+2026-11-14 08:12:08,950 - __main__ - INFO - ⏹️ Stop TimeRange: 1794641102.792 to 1794641109.395 seconds. Duration: 6.604 seconds
+2026-11-14 08:12:08,950 - __main__ - INFO - ⏹️ Realigned timestamps for 296 frames, timestamp range: 0.000000 to 6.555556 seconds
+2026-11-14 08:12:08,950 - __main__ - INFO - 🔴 Start #Episode: 15
+2026-11-14 08:12:08,950 - __main__ - INFO -   📹 left_color: buffered 18 pkts from IDR at 1794641113.007s (X at 1794641113.403s)
+2026-11-14 08:12:08,950 - __main__ - INFO -   📹 right_color: buffered 1 pkts from IDR at 1794641113.383s (X at 1794641113.403s)
+2026-11-14 08:12:08,950 - __main__ - INFO -   📹 head_camera: buffered 21 pkts from IDR at 1794641112.953s (X at 1794641113.403s)
+2026-11-14 08:12:09,863 - __main__ - INFO - ⏹️ Stop TimeRange: 1794641113.403 to 1794641121.978 seconds. Duration: 8.575 seconds
+2026-11-14 08:12:09,863 - __main__ - INFO - ⏹️ Realigned timestamps for 385 frames, timestamp range: 0.000000 to 8.533333 seconds
+2026-11-14 08:12:09,871 - __main__ - INFO - 🔴 Start #Episode: 16
+2026-11-14 08:12:09,872 - __main__ - INFO -   📹 left_color: buffered 17 pkts from IDR at 1794641128.008s (X at 1794641128.369s)
+2026-11-14 08:12:09,872 - __main__ - INFO -   📹 right_color: buffered 45 pkts from IDR at 1794641127.383s (X at 1794641128.369s)
+2026-11-14 08:12:09,872 - __main__ - INFO -   📹 head_camera: buffered 19 pkts from IDR at 1794641127.953s (X at 1794641128.369s)
+2026-11-14 08:12:10,597 - __main__ - INFO - ⏹️ Stop TimeRange: 1794641128.369 to 1794641135.572 seconds. Duration: 7.204 seconds
+2026-11-14 08:12:10,597 - __main__ - INFO - ⏹️ Realigned timestamps for 323 frames, timestamp range: 0.000000 to 7.155556 seconds
+2026-11-14 08:12:10,597 - __main__ - INFO - 🔴 Start #Episode: 17
+2026-11-14 08:12:10,598 - __main__ - INFO -   📹 left_color: buffered 27 pkts from IDR at 1794641139.006s (X at 1794641139.596s)
+2026-11-14 08:12:10,598 - __main__ - INFO -   📹 right_color: buffered 10 pkts from IDR at 1794641139.386s (X at 1794641139.596s)
+2026-11-14 08:12:10,598 - __main__ - INFO -   📹 head_camera: buffered 29 pkts from IDR at 1794641138.954s (X at 1794641139.596s)
+2026-11-14 08:12:11,400 - __main__ - INFO - ⏹️ Stop TimeRange: 1794641139.596 to 1794641146.001 seconds. Duration: 6.405 seconds
+2026-11-14 08:12:11,400 - __main__ - INFO - ⏹️ Realigned timestamps for 287 frames, timestamp range: 0.000000 to 6.355556 seconds
+2026-11-14 08:12:11,400 - __main__ - INFO - 🔴 Start #Episode: 18
+2026-11-14 08:12:11,400 - __main__ - INFO -   📹 left_color: buffered 42 pkts from IDR at 1794641150.006s (X at 1794641150.939s)
+2026-11-14 08:12:11,400 - __main__ - INFO -   📹 right_color: buffered 26 pkts from IDR at 1794641150.387s (X at 1794641150.939s)
+2026-11-14 08:12:11,400 - __main__ - INFO -   📹 head_camera: buffered 45 pkts from IDR at 1794641149.955s (X at 1794641150.939s)
+2026-11-14 08:12:11,581 - root - INFO -   head_camera: padded 1 tail frame(s) by cloning the last IDR packet
+2026-11-14 08:12:11,714 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:11,785 - root - INFO - Sampled 3 frames from episode_000010.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:11,786 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:11,833 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:11,858 - root - INFO - Sampled 3 frames from episode_000010.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:11,860 - root - INFO - Fixed decoder metadata: width=960, height=480
+2026-11-14 08:12:11,898 - root - INFO - Sampled 3 frames from episode_000009.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:11,900 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:11,941 - root - INFO - Sampled 3 frames from episode_000010.mp4.tmp: shape=(3, 3, 80, 160), dtype=uint8
+2026-11-14 08:12:11,941 - root - INFO -   [PERF encode ep10 gpu0] 3 cams, 271 frames each: 6.38s (sample: 0.23s)
+2026-11-14 08:12:12,080 - root - INFO -   left_color: padded 1 tail frame(s) by cloning the last IDR packet
+2026-11-14 08:12:12,094 - root - INFO -   right_color: padded 1 tail frame(s) by cloning the last IDR packet
+2026-11-14 08:12:12,148 - root - INFO -   head_camera: padded 1 tail frame(s) by cloning the last IDR packet
+2026-11-14 08:12:12,170 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:12,172 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:12,180 - root - INFO - Sampled 3 frames from episode_000009.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:12,182 - root - INFO - Fixed decoder metadata: width=960, height=480
+2026-11-14 08:12:12,239 - root - INFO - Sampled 3 frames from episode_000011.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:12,239 - root - INFO - Sampled 3 frames from episode_000012.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:12,241 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:12,241 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:12,266 - root - INFO - Sampled 3 frames from episode_000009.mp4.tmp: shape=(3, 3, 80, 160), dtype=uint8
+2026-11-14 08:12:12,267 - root - INFO -   [PERF encode ep9 gpu1] 3 cams, 284 frames each: 7.12s (sample: 0.44s)
+Map:   0% 0/284 [00:00<?, ? examples/s]2026-11-14 08:12:12,485 - root - INFO - Sampled 3 frames from episode_000011.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:12,487 - root - INFO - Sampled 3 frames from episode_000012.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:12,490 - root - INFO - Fixed decoder metadata: width=960, height=480
+2026-11-14 08:12:12,491 - root - INFO - Fixed decoder metadata: width=960, height=480
+Map:  40% 113/284 [00:00<00:00, 1110.05 examples/s]2026-11-14 08:12:12,593 - root - INFO - Sampled 3 frames from episode_000011.mp4.tmp: shape=(3, 3, 80, 160), dtype=uint8
+2026-11-14 08:12:12,593 - root - INFO - Sampled 3 frames from episode_000012.mp4.tmp: shape=(3, 3, 80, 160), dtype=uint8
+2026-11-14 08:12:12,593 - root - INFO -   [PERF encode ep11 gpu1] 3 cams, 298 frames each: 6.19s (sample: 0.42s)
+2026-11-14 08:12:12,594 - root - INFO -   [PERF encode ep12 gpu0] 3 cams, 242 frames each: 5.39s (sample: 0.43s)
+Map:  85% 240/284 [00:00<00:00, 308.32 examples/s] Map: 100% 284/284 [00:00<00:00, 388.93 examples/s]
+Creating parquet from Arrow format:   0% 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100% 1/1 [00:00<00:00, 189.87ba/s]
+2026-11-14 08:12:13,269 - root - INFO - ✅ Saved episode 9 with 284 frames
+2026-11-14 08:12:13,270 - __main__ - INFO -   [PERF cumulative] episode_video_dur=6.3s | dataset_save=5.12s | encode_stall=4.97s | idr_window_flush=0.06s | read_next=0.68s | stage2_finalize=0.00s | update_messages=1.73s
+Map:   0% 0/271 [00:00<?, ? examples/s]Map:  39% 106/271 [00:00<00:00, 1042.50 examples/s]Map:  98% 266/271 [00:00<00:00, 1017.70 examples/s]Map: 100% 271/271 [00:00<00:00, 994.09 examples/s] 
+Creating parquet from Arrow format:   0% 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100% 1/1 [00:00<00:00, 191.23ba/s]
+2026-11-14 08:12:13,662 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:13,664 - root - INFO - ✅ Saved episode 10 with 271 frames
+2026-11-14 08:12:13,664 - __main__ - INFO -   [PERF cumulative] episode_video_dur=6.0s | dataset_save=5.44s | encode_stall=4.97s | idr_window_flush=0.06s | read_next=0.68s | stage2_finalize=0.07s | update_messages=1.73s
+Map:   0% 0/298 [00:00<?, ? examples/s]2026-11-14 08:12:13,733 - root - INFO - Sampled 3 frames from episode_000013.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:13,736 - root - INFO - Fixed decoder metadata: width=1280, height=400
+Map:  38% 112/298 [00:00<00:00, 839.96 examples/s]2026-11-14 08:12:13,842 - root - INFO - Sampled 3 frames from episode_000013.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:13,845 - root - INFO - Fixed decoder metadata: width=960, height=480
+Map:  85% 253/298 [00:00<00:00, 929.77 examples/s]2026-11-14 08:12:13,984 - root - INFO - Sampled 3 frames from episode_000013.mp4.tmp: shape=(3, 3, 80, 160), dtype=uint8
+2026-11-14 08:12:13,984 - root - INFO -   [PERF encode ep13 gpu1] 3 cams, 282 frames each: 2.04s (sample: 0.33s)
+Map: 100% 298/298 [00:00<00:00, 590.27 examples/s]
+Creating parquet from Arrow format:   0% 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100% 1/1 [00:00<00:00, 46.81ba/s]
+2026-11-14 08:12:14,245 - root - INFO - ✅ Saved episode 11 with 298 frames
+2026-11-14 08:12:14,245 - __main__ - INFO -   [PERF cumulative] episode_video_dur=6.6s | dataset_save=6.02s | encode_stall=4.97s | idr_window_flush=0.06s | read_next=0.68s | stage2_finalize=0.07s | update_messages=1.73s
+Map:   0% 0/242 [00:00<?, ? examples/s]Map:  24% 59/242 [00:00<00:00, 530.09 examples/s]Map:  53% 128/242 [00:00<00:00, 475.00 examples/s]Map: 100% 242/242 [00:00<00:00, 678.46 examples/s]
+Creating parquet from Arrow format:   0% 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100% 1/1 [00:00<00:00, 264.57ba/s]
+2026-11-14 08:12:14,794 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:14,886 - root - INFO - Sampled 3 frames from episode_000014.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:14,888 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:14,902 - root - INFO - ✅ Saved episode 12 with 242 frames
+2026-11-14 08:12:14,902 - __main__ - INFO -   [PERF cumulative] episode_video_dur=5.4s | dataset_save=6.68s | encode_stall=4.97s | idr_window_flush=0.06s | read_next=0.68s | stage2_finalize=0.07s | update_messages=1.73s
+2026-11-14 08:12:14,912 - root - INFO - Fixed decoder metadata: width=1280, height=400
+Map:   0% 0/282 [00:00<?, ? examples/s]2026-11-14 08:12:15,011 - root - INFO - Sampled 3 frames from episode_000014.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:15,014 - root - INFO - Fixed decoder metadata: width=960, height=480
+2026-11-14 08:12:15,022 - root - INFO - Sampled 3 frames from episode_000016.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:15,025 - root - INFO - Fixed decoder metadata: width=1280, height=400
+Map:  63% 177/282 [00:00<00:00, 1335.48 examples/s]2026-11-14 08:12:15,095 - root - INFO - Sampled 3 frames from episode_000014.mp4.tmp: shape=(3, 3, 80, 160), dtype=uint8
+2026-11-14 08:12:15,096 - root - INFO -   [PERF encode ep14 gpu0] 3 cams, 296 frames each: 2.83s (sample: 0.30s)
+2026-11-14 08:12:15,108 - root - INFO - Sampled 3 frames from episode_000016.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:15,111 - root - INFO - Fixed decoder metadata: width=960, height=480
+Map: 100% 282/282 [00:00<00:00, 1515.01 examples/s]
+Creating parquet from Arrow format:   0% 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100% 1/1 [00:00<00:00, 90.38ba/s]
+2026-11-14 08:12:15,135 - root - INFO - ✅ Saved episode 13 with 282 frames
+2026-11-14 08:12:15,136 - __main__ - INFO -   [PERF cumulative] episode_video_dur=6.3s | dataset_save=6.91s | encode_stall=4.97s | idr_window_flush=0.06s | read_next=0.68s | stage2_finalize=0.07s | update_messages=1.73s
+Map:   0% 0/296 [00:00<?, ? examples/s]2026-11-14 08:12:15,198 - root - INFO - Sampled 3 frames from episode_000016.mp4.tmp: shape=(3, 3, 80, 160), dtype=uint8
+2026-11-14 08:12:15,198 - root - INFO -   [PERF encode ep16 gpu0] 3 cams, 323 frames each: 2.60s (sample: 0.30s)
+Map:  75% 222/296 [00:00<00:00, 1270.57 examples/s]Map: 100% 296/296 [00:00<00:00, 892.85 examples/s] 
+Creating parquet from Arrow format:   0% 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100% 1/1 [00:00<00:00, 202.16ba/s]
+2026-11-14 08:12:15,521 - root - INFO - ✅ Saved episode 14 with 296 frames
+2026-11-14 08:12:15,522 - __main__ - INFO -   [PERF cumulative] episode_video_dur=6.6s | dataset_save=7.30s | encode_stall=4.97s | idr_window_flush=0.06s | read_next=0.68s | stage2_finalize=0.07s | update_messages=1.73s
+2026-11-14 08:12:15,956 - __main__ - INFO - ⏹️ Stop TimeRange: 1794641150.939 to 1794641156.845 seconds. Duration: 5.906 seconds
+2026-11-14 08:12:15,957 - __main__ - INFO - ⏹️ Realigned timestamps for 265 frames, timestamp range: 0.000000 to 5.866667 seconds
+2026-11-14 08:12:15,957 - __main__ - INFO - 🔴 Start #Episode: 19
+2026-11-14 08:12:15,960 - __main__ - INFO -   📹 left_color: buffered 28 pkts from IDR at 1794641162.007s (X at 1794641162.628s)
+2026-11-14 08:12:15,960 - __main__ - INFO -   📹 right_color: buffered 11 pkts from IDR at 1794641162.385s (X at 1794641162.628s)
+2026-11-14 08:12:15,960 - __main__ - INFO -   📹 head_camera: buffered 31 pkts from IDR at 1794641161.956s (X at 1794641162.628s)
+2026-11-14 08:12:16,463 - __main__ - INFO - 🔴 Re-record #Episode: 19
+2026-11-14 08:12:16,464 - __main__ - INFO -   📹 left_color: buffered 33 pkts from IDR at 1794641166.007s (X at 1794641166.739s)
+2026-11-14 08:12:16,464 - __main__ - INFO -   📹 right_color: buffered 16 pkts from IDR at 1794641166.387s (X at 1794641166.739s)
+2026-11-14 08:12:16,464 - __main__ - INFO -   📹 head_camera: buffered 36 pkts from IDR at 1794641165.955s (X at 1794641166.739s)
+2026-11-14 08:12:16,579 - __main__ - INFO - 🔴 Re-record #Episode: 19
+2026-11-14 08:12:16,580 - __main__ - INFO -   📹 left_color: buffered 16 pkts from IDR at 1794641168.009s (X at 1794641168.353s)
+2026-11-14 08:12:16,580 - __main__ - INFO -   📹 right_color: buffered 44 pkts from IDR at 1794641167.388s (X at 1794641168.353s)
+2026-11-14 08:12:16,580 - __main__ - INFO -   📹 head_camera: buffered 18 pkts from IDR at 1794641167.955s (X at 1794641168.353s)
+2026-11-14 08:12:17,189 - __main__ - INFO - ⏹️ Stop TimeRange: 1794641168.353 to 1794641175.634 seconds. Duration: 7.281 seconds
+2026-11-14 08:12:17,189 - __main__ - INFO - ⏹️ Realigned timestamps for 327 frames, timestamp range: 0.000000 to 7.244444 seconds
+2026-11-14 08:12:17,189 - __main__ - INFO - 🔴 Start #Episode: 20
+2026-11-14 08:12:17,189 - __main__ - INFO -   📹 left_color: buffered 23 pkts from IDR at 1794641179.009s (X at 1794641179.506s)
+2026-11-14 08:12:17,189 - __main__ - INFO -   📹 right_color: buffered 6 pkts from IDR at 1794641179.386s (X at 1794641179.506s)
+2026-11-14 08:12:17,189 - __main__ - INFO -   📹 head_camera: buffered 25 pkts from IDR at 1794641178.956s (X at 1794641179.506s)
+2026-11-14 08:12:18,078 - __main__ - INFO - ⏹️ Stop TimeRange: 1794641179.506 to 1794641185.727 seconds. Duration: 6.222 seconds
+2026-11-14 08:12:18,079 - __main__ - INFO - ⏹️ Realigned timestamps for 279 frames, timestamp range: 0.000000 to 6.177778 seconds
+2026-11-14 08:12:18,280 - __main__ - INFO - 🔴 Start #Episode: 21
+2026-11-14 08:12:18,280 - __main__ - INFO -   📹 left_color: buffered 12 pkts from IDR at 1794641199.011s (X at 1794641199.266s)
+2026-11-14 08:12:18,280 - __main__ - INFO -   📹 right_color: buffered 40 pkts from IDR at 1794641198.387s (X at 1794641199.266s)
+2026-11-14 08:12:18,280 - __main__ - INFO -   📹 head_camera: buffered 14 pkts from IDR at 1794641198.957s (X at 1794641199.266s)
+2026-11-14 08:12:18,289 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:18,631 - root - INFO - Sampled 3 frames from episode_000015.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:18,705 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:18,825 - __main__ - INFO - ⏹️ Stop TimeRange: 1794641199.266 to 1794641205.689 seconds. Duration: 6.423 seconds
+2026-11-14 08:12:18,826 - __main__ - INFO - ⏹️ Realigned timestamps for 288 frames, timestamp range: 0.000000 to 6.377778 seconds
+2026-11-14 08:12:18,826 - __main__ - INFO - 🔴 Start #Episode: 22
+2026-11-14 08:12:18,826 - __main__ - INFO -   📹 left_color: buffered 3 pkts from IDR at 1794641211.012s (X at 1794641211.067s)
+2026-11-14 08:12:18,826 - __main__ - INFO -   📹 right_color: buffered 31 pkts from IDR at 1794641210.390s (X at 1794641211.067s)
+2026-11-14 08:12:18,826 - __main__ - INFO -   📹 head_camera: buffered 5 pkts from IDR at 1794641210.958s (X at 1794641211.067s)
+2026-11-14 08:12:18,887 - root - INFO - Sampled 3 frames from episode_000015.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:18,940 - root - INFO - Fixed decoder metadata: width=960, height=480
+2026-11-14 08:12:19,326 - __main__ - INFO - 🔴 Re-record #Episode: 22
+2026-11-14 08:12:19,327 - __main__ - INFO -   📹 left_color: buffered 36 pkts from IDR at 1794641218.012s (X at 1794641218.810s)
+2026-11-14 08:12:19,327 - __main__ - INFO -   📹 right_color: buffered 20 pkts from IDR at 1794641218.390s (X at 1794641218.810s)
+2026-11-14 08:12:19,327 - __main__ - INFO -   📹 head_camera: buffered 39 pkts from IDR at 1794641217.958s (X at 1794641218.810s)
+2026-11-14 08:12:19,334 - root - INFO - Sampled 3 frames from episode_000015.mp4.tmp: shape=(3, 3, 80, 160), dtype=uint8
+2026-11-14 08:12:19,335 - root - INFO -   [PERF encode ep15 gpu1] 3 cams, 385 frames each: 6.74s (sample: 1.08s)
+Map:   0% 0/385 [00:00<?, ? examples/s]2026-11-14 08:12:19,650 - root - INFO - Fixed decoder metadata: width=1280, height=400
+Map:  33% 128/385 [00:00<00:00, 1258.15 examples/s]2026-11-14 08:12:19,718 - root - INFO - Sampled 3 frames from episode_000017.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:19,721 - root - INFO - Fixed decoder metadata: width=1280, height=400
+Map:  70% 270/385 [00:00<00:00, 1346.86 examples/s]2026-11-14 08:12:19,798 - root - INFO - Sampled 3 frames from episode_000017.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:19,800 - root - INFO - Fixed decoder metadata: width=960, height=480
+Map: 100% 385/385 [00:00<00:00, 1433.53 examples/s]
+Creating parquet from Arrow format:   0% 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100% 1/1 [00:00<00:00, 173.89ba/s]
+2026-11-14 08:12:19,856 - root - INFO - ✅ Saved episode 15 with 385 frames
+2026-11-14 08:12:19,856 - __main__ - INFO -   [PERF cumulative] episode_video_dur=8.6s | dataset_save=7.81s | encode_stall=4.97s | idr_window_flush=0.07s | read_next=0.92s | stage2_finalize=0.07s | update_messages=2.49s
+Map:   0% 0/323 [00:00<?, ? examples/s]2026-11-14 08:12:19,893 - root - INFO - Sampled 3 frames from episode_000017.mp4.tmp: shape=(3, 3, 80, 160), dtype=uint8
+2026-11-14 08:12:19,893 - root - INFO -   [PERF encode ep17 gpu1] 3 cams, 287 frames each: 5.91s (sample: 0.25s)
+Map:   5% 15/323 [00:00<00:02, 125.42 examples/s]Map:  17% 55/323 [00:00<00:01, 187.68 examples/s]Map:  48% 154/323 [00:00<00:00, 462.60 examples/s]2026-11-14 08:12:20,306 - root - INFO - Fixed decoder metadata: width=1280, height=400
+Map: 100% 323/323 [00:00<00:00, 858.98 examples/s]Map: 100% 323/323 [00:00<00:00, 629.64 examples/s]
+2026-11-14 08:12:20,400 - root - INFO - Sampled 3 frames from episode_000018.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:20,404 - root - INFO - Fixed decoder metadata: width=1280, height=400
+Creating parquet from Arrow format:   0% 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100% 1/1 [00:00<00:00, 176.48ba/s]
+2026-11-14 08:12:20,421 - root - INFO - ✅ Saved episode 16 with 323 frames
+2026-11-14 08:12:20,421 - __main__ - INFO -   [PERF cumulative] episode_video_dur=7.2s | dataset_save=8.37s | encode_stall=4.97s | idr_window_flush=0.07s | read_next=0.92s | stage2_finalize=0.07s | update_messages=2.49s
+Map:   0% 0/287 [00:00<?, ? examples/s]2026-11-14 08:12:20,481 - root - INFO - Sampled 3 frames from episode_000018.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:20,484 - root - INFO - Fixed decoder metadata: width=960, height=480
+Map:  70% 200/287 [00:00<00:00, 1982.11 examples/s]2026-11-14 08:12:20,575 - root - INFO - Sampled 3 frames from episode_000018.mp4.tmp: shape=(3, 3, 80, 160), dtype=uint8
+2026-11-14 08:12:20,575 - root - INFO -   [PERF encode ep18 gpu0] 3 cams, 265 frames each: 4.62s (sample: 0.27s)
+Map: 100% 287/287 [00:00<00:00, 1092.70 examples/s]
+Creating parquet from Arrow format:   0% 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100% 1/1 [00:00<00:00, 206.00ba/s]
+2026-11-14 08:12:20,745 - root - INFO - ✅ Saved episode 17 with 287 frames
+2026-11-14 08:12:20,745 - __main__ - INFO -   [PERF cumulative] episode_video_dur=6.4s | dataset_save=8.70s | encode_stall=4.97s | idr_window_flush=0.07s | read_next=0.92s | stage2_finalize=0.07s | update_messages=2.49s
+Map:   0% 0/265 [00:00<?, ? examples/s]Map:  52% 139/265 [00:00<00:00, 1334.52 examples/s]2026-11-14 08:12:21,137 - root - INFO - Fixed decoder metadata: width=1280, height=400
+Map: 100% 265/265 [00:00<00:00, 1487.90 examples/s]
+Creating parquet from Arrow format:   0% 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100% 1/1 [00:00<00:00, 198.79ba/s]
+2026-11-14 08:12:21,209 - root - INFO - Sampled 3 frames from episode_000020.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:21,211 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:21,423 - root - INFO - ✅ Saved episode 18 with 265 frames
+2026-11-14 08:12:21,423 - __main__ - INFO -   [PERF cumulative] episode_video_dur=5.9s | dataset_save=9.25s | encode_stall=4.97s | idr_window_flush=0.07s | read_next=0.92s | stage2_finalize=0.20s | update_messages=2.49s
+2026-11-14 08:12:21,444 - root - INFO - Sampled 3 frames from episode_000020.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:21,483 - root - INFO - Fixed decoder metadata: width=960, height=480
+2026-11-14 08:12:21,793 - __main__ - INFO - 🔴 Re-record #Episode: 22
+2026-11-14 08:12:21,794 - __main__ - INFO -   📹 left_color: buffered 43 pkts from IDR at 1794641224.010s (X at 1794641224.961s)
+2026-11-14 08:12:21,794 - __main__ - INFO -   📹 right_color: buffered 26 pkts from IDR at 1794641224.391s (X at 1794641224.961s)
+2026-11-14 08:12:21,794 - __main__ - INFO -   📹 head_camera: buffered 1 pkts from IDR at 1794641224.958s (X at 1794641224.961s)
+2026-11-14 08:12:21,797 - root - INFO - Sampled 3 frames from episode_000020.mp4.tmp: shape=(3, 3, 80, 160), dtype=uint8
+2026-11-14 08:12:21,797 - root - INFO -   [PERF encode ep20 gpu0] 3 cams, 279 frames each: 2.45s (sample: 0.66s)
+2026-11-14 08:12:22,222 - __main__ - INFO - 🔴 Re-record #Episode: 22
+2026-11-14 08:12:22,223 - __main__ - INFO -   📹 left_color: buffered 31 pkts from IDR at 1794641230.012s (X at 1794641230.691s)
+2026-11-14 08:12:22,223 - __main__ - INFO -   📹 right_color: buffered 14 pkts from IDR at 1794641230.388s (X at 1794641230.691s)
+2026-11-14 08:12:22,223 - __main__ - INFO -   📹 head_camera: buffered 33 pkts from IDR at 1794641229.959s (X at 1794641230.691s)
+2026-11-14 08:12:22,830 - __main__ - INFO - ⏹️ Stop TimeRange: 1794641230.691 to 1794641237.752 seconds. Duration: 7.062 seconds
+2026-11-14 08:12:22,830 - __main__ - INFO - ⏹️ Realigned timestamps for 317 frames, timestamp range: 0.000000 to 7.022222 seconds
+2026-11-14 08:12:22,831 - __main__ - INFO - 🔴 Start #Episode: 23
+2026-11-14 08:12:22,831 - __main__ - INFO -   📹 left_color: buffered 34 pkts from IDR at 1794641242.013s (X at 1794641242.753s)
+2026-11-14 08:12:22,831 - __main__ - INFO -   📹 right_color: buffered 17 pkts from IDR at 1794641242.391s (X at 1794641242.753s)
+2026-11-14 08:12:22,831 - __main__ - INFO -   📹 head_camera: buffered 36 pkts from IDR at 1794641241.959s (X at 1794641242.753s)
+2026-11-14 08:12:23,625 - __main__ - INFO - ⏹️ Stop TimeRange: 1794641242.753 to 1794641250.121 seconds. Duration: 7.369 seconds
+2026-11-14 08:12:23,626 - __main__ - INFO - ⏹️ Realigned timestamps for 331 frames, timestamp range: 0.000000 to 7.333333 seconds
+2026-11-14 08:12:23,626 - __main__ - INFO - 🔴 Start #Episode: 24
+2026-11-14 08:12:23,626 - __main__ - INFO -   📹 left_color: buffered 7 pkts from IDR at 1794641253.014s (X at 1794641253.165s)
+2026-11-14 08:12:23,626 - __main__ - INFO -   📹 right_color: buffered 35 pkts from IDR at 1794641252.389s (X at 1794641253.165s)
+2026-11-14 08:12:23,626 - __main__ - INFO -   📹 head_camera: buffered 10 pkts from IDR at 1794641252.960s (X at 1794641253.165s)
+2026-11-14 08:12:24,418 - __main__ - INFO - ⏹️ Stop TimeRange: 1794641253.165 to 1794641258.922 seconds. Duration: 5.757 seconds
+2026-11-14 08:12:24,418 - __main__ - INFO - ⏹️ Realigned timestamps for 258 frames, timestamp range: 0.000000 to 5.711111 seconds
+2026-11-14 08:12:24,545 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:24,616 - root - INFO - Sampled 3 frames from episode_000019.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:24,617 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:24,670 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:24,684 - root - INFO - Sampled 3 frames from episode_000019.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:24,685 - root - INFO - Fixed decoder metadata: width=960, height=480
+2026-11-14 08:12:24,735 - root - INFO - Sampled 3 frames from episode_000021.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:24,736 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:24,764 - root - INFO - Sampled 3 frames from episode_000019.mp4.tmp: shape=(3, 3, 80, 160), dtype=uint8
+2026-11-14 08:12:24,764 - root - INFO -   [PERF encode ep19 gpu1] 3 cams, 327 frames each: 7.57s (sample: 0.22s)
+Map:   0% 0/327 [00:00<?, ? examples/s]2026-11-14 08:12:24,996 - root - INFO - Sampled 3 frames from episode_000021.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:25,000 - root - INFO - Fixed decoder metadata: width=960, height=480
+Map:  41% 133/327 [00:00<00:00, 1303.55 examples/s]2026-11-14 08:12:25,088 - root - INFO - Sampled 3 frames from episode_000021.mp4.tmp: shape=(3, 3, 80, 160), dtype=uint8
+2026-11-14 08:12:25,088 - root - INFO -   [PERF encode ep21 gpu1] 3 cams, 288 frames each: 5.20s (sample: 0.42s)
+Map:  94% 307/327 [00:00<00:00, 1552.82 examples/s]Map: 100% 327/327 [00:00<00:00, 1452.20 examples/s]
+Creating parquet from Arrow format:   0% 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100% 1/1 [00:00<00:00, 158.59ba/s]
+2026-11-14 08:12:25,231 - root - INFO - ✅ Saved episode 19 with 327 frames
+2026-11-14 08:12:25,231 - __main__ - INFO -   [PERF cumulative] episode_video_dur=7.3s | dataset_save=9.64s | encode_stall=5.31s | idr_window_flush=0.07s | read_next=1.14s | stage2_finalize=0.27s | update_messages=2.87s
+Map:   0% 0/279 [00:00<?, ? examples/s]Map:  69% 193/279 [00:00<00:00, 1904.38 examples/s]Map: 100% 279/279 [00:00<00:00, 1786.67 examples/s]
+Creating parquet from Arrow format:   0% 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100% 1/1 [00:00<00:00, 168.80ba/s]
+2026-11-14 08:12:25,442 - root - INFO - ✅ Saved episode 20 with 279 frames
+2026-11-14 08:12:25,443 - __main__ - INFO -   [PERF cumulative] episode_video_dur=6.2s | dataset_save=9.86s | encode_stall=5.31s | idr_window_flush=0.07s | read_next=1.14s | stage2_finalize=0.27s | update_messages=2.87s
+Map:   0% 0/288 [00:00<?, ? examples/s]Map:  67% 193/288 [00:00<00:00, 1904.96 examples/s]Map: 100% 288/288 [00:00<00:00, 1835.75 examples/s]
+Creating parquet from Arrow format:   0% 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100% 1/1 [00:00<00:00, 215.56ba/s]
+2026-11-14 08:12:25,651 - root - INFO - ✅ Saved episode 21 with 288 frames
+2026-11-14 08:12:25,651 - __main__ - INFO -   [PERF cumulative] episode_video_dur=6.4s | dataset_save=10.06s | encode_stall=5.31s | idr_window_flush=0.07s | read_next=1.14s | stage2_finalize=0.27s | update_messages=2.87s
+2026-11-14 08:12:25,921 - root - INFO -   right_color: padded 1 tail frame(s) by cloning the last IDR packet
+2026-11-14 08:12:26,061 - root - INFO -   left_color: padded 1 tail frame(s) by cloning the last IDR packet
+2026-11-14 08:12:26,201 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:26,264 - root - INFO - Sampled 3 frames from episode_000022.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:26,265 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:26,309 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:26,362 - root - INFO - Sampled 3 frames from episode_000022.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:26,364 - root - INFO - Fixed decoder metadata: width=960, height=480
+2026-11-14 08:12:26,383 - root - INFO - Sampled 3 frames from episode_000023.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:26,385 - root - INFO - Fixed decoder metadata: width=1280, height=400
+2026-11-14 08:12:26,442 - root - INFO - Sampled 3 frames from episode_000022.mp4.tmp: shape=(3, 3, 80, 160), dtype=uint8
+2026-11-14 08:12:26,442 - root - INFO -   [PERF encode ep22 gpu0] 3 cams, 317 frames each: 3.60s (sample: 0.24s)
+Map:   0% 0/317 [00:00<?, ? examples/s]2026-11-14 08:12:26,524 - root - INFO - Sampled 3 frames from episode_000023.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:26,527 - root - INFO - Fixed decoder metadata: width=960, height=480
+2026-11-14 08:12:26,616 - root - INFO - Sampled 3 frames from episode_000023.mp4.tmp: shape=(3, 3, 80, 160), dtype=uint8
+Map:  56% 177/317 [00:00<00:00, 1728.35 examples/s]2026-11-14 08:12:26,619 - root - INFO -   [PERF encode ep23 gpu1] 3 cams, 331 frames each: 2.99s (sample: 0.31s)
+2026-11-14 08:12:26,655 - root - INFO - Fixed decoder metadata: width=1280, height=400
+Map: 100% 317/317 [00:00<00:00, 1618.98 examples/s]
+Creating parquet from Arrow format:   0% 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100% 1/1 [00:00<00:00, 201.78ba/s]
+2026-11-14 08:12:26,732 - root - INFO - ✅ Saved episode 22 with 317 frames
+2026-11-14 08:12:26,732 - __main__ - INFO -   [PERF cumulative] episode_video_dur=7.1s | dataset_save=10.35s | encode_stall=6.10s | idr_window_flush=0.07s | read_next=1.14s | stage2_finalize=0.27s | update_messages=2.87s
+2026-11-14 08:12:26,747 - root - INFO - Sampled 3 frames from episode_000024.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:26,755 - root - INFO - Fixed decoder metadata: width=1280, height=400
+Map:   0% 0/331 [00:00<?, ? examples/s]2026-11-14 08:12:26,829 - root - INFO - Sampled 3 frames from episode_000024.mp4.tmp: shape=(3, 3, 50, 160), dtype=uint8
+2026-11-14 08:12:26,833 - root - INFO - Fixed decoder metadata: width=960, height=480
+Map:  63% 209/331 [00:00<00:00, 2066.98 examples/s]2026-11-14 08:12:26,918 - root - INFO - Sampled 3 frames from episode_000024.mp4.tmp: shape=(3, 3, 80, 160), dtype=uint8
+2026-11-14 08:12:26,918 - root - INFO -   [PERF encode ep24 gpu0] 3 cams, 258 frames each: 2.15s (sample: 0.27s)
+Map: 100% 331/331 [00:00<00:00, 1934.42 examples/s]
+Creating parquet from Arrow format:   0% 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100% 1/1 [00:00<00:00, 190.87ba/s]
+2026-11-14 08:12:26,955 - root - INFO - ✅ Saved episode 23 with 331 frames
+2026-11-14 08:12:26,955 - __main__ - INFO -   [PERF cumulative] episode_video_dur=7.4s | dataset_save=10.57s | encode_stall=6.10s | idr_window_flush=0.07s | read_next=1.14s | stage2_finalize=0.27s | update_messages=2.87s
+Map:   0% 0/258 [00:00<?, ? examples/s]Map:  84% 216/258 [00:00<00:00, 2136.55 examples/s]Map: 100% 258/258 [00:00<00:00, 2032.67 examples/s]
+Creating parquet from Arrow format:   0% 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100% 1/1 [00:00<00:00, 236.18ba/s]
+2026-11-14 08:12:27,125 - root - INFO - ✅ Saved episode 24 with 258 frames
+2026-11-14 08:12:27,125 - __main__ - INFO -   [PERF cumulative] episode_video_dur=5.8s | dataset_save=10.74s | encode_stall=6.10s | idr_window_flush=0.07s | read_next=1.14s | stage2_finalize=0.27s | update_messages=2.87s
+2026-11-14 08:12:27,135 - __main__ - INFO - [PERF bag total] wall=35.47s | dataset_save=10.74s | encode_stall=6.10s | idr_window_flush=0.07s | read_next=1.14s | stage2_finalize=0.27s | update_messages=2.87s
+2026-11-14 08:12:27,136 - __main__ - INFO - [1/1] Finished processing rosbag: rec_20261114_152130_7c03811d
+2026-11-14 08:12:27,138 - __main__ - INFO - 
+🎉 Multi-bag conversion complete!
+2026-11-14 08:12:27,138 - __main__ - INFO -    Dataset: move_vaapi
+2026-11-14 08:12:27,138 - __main__ - INFO -    Bags: 1/1 converted
+2026-11-14 08:12:27,138 - __main__ - INFO -    Episodes: 25 successful
+2026-11-14 08:12:27,138 - __main__ - INFO -    Total time: 35.5s

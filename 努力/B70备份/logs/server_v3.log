@@ -1,0 +1,84 @@
+[openpi-xpu-env] applied transformers_replace -> /opt/venv/lib/python3.11/site-packages/transformers
+[openpi-xpu-env] WARNING: /app/uv.lock differs from the lock this image was built from (openpi commit 22a391be9d45b45e96a3a6818de16df589c23ff3). If imports fail, rebuild the image with the new uv.lock.
+INFO:root:Loading model...
+INFO:openpi:train_config: TrainConfig(name='pi05_teleavatar_v2', project_name='openpi', exp_name=<PropagatingMissingType id='138369872155856'>, model=Pi0Config(action_dim=32, action_horizon=30, max_token_len=200, dtype='bfloat16', paligemma_variant='gemma_2b', action_expert_variant='gemma_300m', pi05=True, discrete_state_input=True, rtc_training_max_delay=0, pytorch_compile_mode='default'), weight_loader=CheckpointWeightLoader(params_path='gs://openpi-assets/checkpoints/pi05_base/params'), pytorch_weight_path=None, pytorch_training_precision='bfloat16', lr_schedule=CosineDecaySchedule(warmup_steps=5000, peak_lr=5e-05, decay_steps=500000, decay_lr=5e-05), optimizer=AdamW(b1=0.9, b2=0.95, eps=1e-08, weight_decay=1e-10, clip_gradient_norm=1.0), ema_decay=0.999, freeze_filter=Nothing(), data=LeRobotTeleavatarV2DataConfig(repo_id='path-to-dataset', assets=AssetsConfig(assets_dir=None, asset_id=None), base_config=DataConfig(repo_id=None, asset_id=None, norm_stats=None, repack_transforms=Group(inputs=(), outputs=()), data_transforms=Group(inputs=(), outputs=()), model_transforms=Group(inputs=(), outputs=()), use_quantile_norm=False, action_sequence_keys=('action',), prompt_from_task=True, rlds_data_dir=None, action_space=None, filter_dict_path=None), use_delta_joint_actions=True, include_chassis_actions=False, rotate_head_camera=False), assets_base_dir='./assets', checkpoint_base_dir='./checkpoints', seed=42, batch_size=64, num_workers=32, num_train_steps=20000, log_interval=100, save_interval=1000, keep_period=5000, overwrite=False, resume=False, wandb_enabled=True, policy_metadata=None, fsdp_devices=1)
+INFO:root:Norm stats not found in /app/assets/pi05_teleavatar_v2/path-to-dataset, skipping.
+INFO:root:Loaded norm stats from /ckpt/assets/path-to-dataset
+INFO:root:Warming up the policy on the teleavatar example observation
+INFO:root:Warmup: unconstrained request took 22.4 s
+INFO:root:Creating server (host: 1c61015f38f1, ip: 172.18.0.2)
+INFO:websockets.server:server listening on 0.0.0.0:8000
+INFO:websockets.server:connection open
+INFO:openpi.serving.websocket_policy_server:Connection from ('172.18.0.1', 58110) opened
+INFO:openpi.serving.websocket_policy_server:Connection from ('172.18.0.1', 58110) closed
+INFO:websockets.server:connection open
+INFO:openpi.serving.websocket_policy_server:Connection from ('172.18.0.1', 40690) opened
+INFO:openpi.serving.websocket_policy_server:Connection from ('172.18.0.1', 40690) closed
+INFO:websockets.server:connection open
+INFO:openpi.serving.websocket_policy_server:Connection from ('172.18.0.1', 50704) opened
+INFO:openpi.serving.websocket_policy_server:Connection from ('172.18.0.1', 50704) closed
+INFO:websockets.server:connection open
+INFO:openpi.serving.websocket_policy_server:Connection from ('172.18.0.1', 56668) opened
+INFO:openpi.serving.websocket_policy_server:Connection from ('172.18.0.1', 56668) closed
+INFO:websockets.server:connection open
+INFO:openpi.serving.websocket_policy_server:Connection from ('172.18.0.1', 60060) opened
+INFO:openpi.serving.websocket_policy_server:Connection from ('172.18.0.1', 60060) closed
+INFO:websockets.server:connection open
+INFO:openpi.serving.websocket_policy_server:Connection from ('172.18.0.1', 34698) opened
+INFO:websockets.server:connection open
+INFO:openpi.serving.websocket_policy_server:Connection from ('192.168.31.236', 64266) opened
+INFO:openpi.serving.websocket_policy_server:Connection from ('192.168.31.236', 64266) closed
+INFO:websockets.server:connection open
+INFO:openpi.serving.websocket_policy_server:Connection from ('192.168.31.236', 10975) opened
+INFO:openpi.serving.websocket_policy_server:Connection from ('192.168.31.236', 10975) closed
+INFO:websockets.server:connection open
+INFO:openpi.serving.websocket_policy_server:Connection from ('172.18.0.1', 51988) opened
+INFO:openpi.serving.websocket_policy_server:Connection from ('172.18.0.1', 34698) closed
+INFO:openpi.serving.websocket_policy_server:Connection from ('172.18.0.1', 51988) closed
+INFO:websockets.server:connection open
+INFO:openpi.serving.websocket_policy_server:Connection from ('172.18.0.1', 53918) opened
+INFO:websockets.server:connection open
+INFO:openpi.serving.websocket_policy_server:Connection from ('172.18.0.1', 34456) opened
+INFO:openpi.serving.websocket_policy_server:Connection from ('172.18.0.1', 53918) closed
+INFO:openpi.serving.websocket_policy_server:Connection from ('172.18.0.1', 34456) closed
+INFO:websockets.server:connection open
+INFO:openpi.serving.websocket_policy_server:Connection from ('172.18.0.1', 37182) opened
+INFO:websockets.server:connection open
+INFO:openpi.serving.websocket_policy_server:Connection from ('172.18.0.1', 60502) opened
+INFO:openpi.serving.websocket_policy_server:Connection from ('172.18.0.1', 37182) closed
+INFO:openpi.serving.websocket_policy_server:Connection from ('172.18.0.1', 60502) closed
+INFO:websockets.server:connection open
+INFO:openpi.serving.websocket_policy_server:Connection from ('172.18.0.1', 40752) opened
+^CINFO:websockets.server:server closing
+INFO:openpi.serving.websocket_policy_server:Connection from ('172.18.0.1', 40752) closed
+INFO:websockets.server:server closed
+Traceback (most recent call last):
+  File "/opt/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/asyncio/base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/app/src/openpi/serving/websocket_policy_server.py", line 54, in run
+    await server.serve_forever()
+  File "/opt/venv/lib/python3.11/site-packages/websockets/asyncio/server.py", line 540, in serve_forever
+    await self.server.serve_forever()
+  File "/opt/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/asyncio/base_events.py", line 370, in serve_forever
+    await self._serving_forever_fut
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/app/scripts/serve_policy.py", line 242, in <module>
+    main(tyro.cli(Args))
+  File "/app/scripts/serve_policy.py", line 237, in main
+    server.serve_forever()
+  File "/app/src/openpi/serving/websocket_policy_server.py", line 41, in serve_forever
+    asyncio.run(self.run())
+  File "/opt/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/asyncio/runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt

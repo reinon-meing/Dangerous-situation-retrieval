@@ -1,0 +1,9 @@
+[openpi-xpu-env] applied transformers_replace -> /opt/venv/lib/python3.11/site-packages/transformers
+[openpi-xpu-env] WARNING: /app/uv.lock differs from the lock this image was built from (openpi commit 22a391be9d45b45e96a3a6818de16df589c23ff3). If imports fail, rebuild the image with the new uv.lock.
+[openpi-xpu-env] NOTE: no /dev/dri/renderD* in this container; torch.xpu will be unavailable. Run with: --device /dev/dri -v /dev/dri/by-path:/dev/dri/by-path
+Converting PI0 checkpoint from /jax to /outputs/pi05_teleavatar_v2_pytorch
+Model config: Pi0Config(action_dim=32, action_horizon=30, max_token_len=200, dtype='bfloat16', paligemma_variant='gemma_2b', action_expert_variant='gemma_300m', pi05=True, discrete_state_input=True, rtc_training_max_delay=0, pytorch_compile_mode='max-autotune')
+Loaded 811 tensors; missing keys: []; unexpected keys: []
+Copied assets from /jax/assets
+Model conversion completed successfully!
+Model saved to /outputs/pi05_teleavatar_v2_pytorch
